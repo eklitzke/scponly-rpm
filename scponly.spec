@@ -2,9 +2,9 @@ Name:     scponly
 Version:  20110526
 Release:  0
 Summary:  Restricted shell for ssh and scp only access
-Group: 	  System/Shells
+Group:    System/Shells
 License:  GPL
-Url: 	    http://www.sublimation.org/scponly/wiki/index.php
+Url:      http://www.sublimation.org/scponly/wiki/index.php
 Source0:  https://sourceforge.net/projects/scponly/files/scponly-snapshots/scponly-%{version}.tgz
 Patch0:   scponly-20110526-Makefile-ownership.patch
 
