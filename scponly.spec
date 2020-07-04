@@ -30,7 +30,7 @@ chmod a-x CHANGELOG INSTALL TODO CONTRIB README COPYING *.h *.c
 %patch0
 
 %build
-%configure --with-sftp-server=%{_libexecdir}/ssh/sftp-server --enable-scp-compat --enable-rsync-compat
+%configure --with-sftp-server=%{_libexecdir}/openssh/sftp-server --enable-scp-compat --enable-rsync-compat
 %make_build
 
 %install
