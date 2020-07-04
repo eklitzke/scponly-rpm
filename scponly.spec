@@ -5,7 +5,7 @@ Summary:  Restricted shell for ssh and scp only access
 Group: 	  System/Shells
 License:  GPL
 Url: 	    http://www.sublimation.org/scponly/wiki/index.php
-Source0:  http://sourceforge.net/projects/scponly/files/scponly-snapshots/scponly-%{version}.tgz
+Source0:  https://sourceforge.net/projects/scponly/files/scponly-snapshots/scponly-%{version}.tgz
 Patch0:   scponly-20110526-Makefile-ownership.patch
 
 BuildRequires: openssh
